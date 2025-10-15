@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="gamePane" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #87CEEB;"
+            xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.demo.GameController">
+    <children>
+        <Label fx:id="infoLabel" layoutX="14.0" layoutY="14.0" text="Carregando...">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+
+        <Rectangle fill="#38761d" height="50.0" layoutY="670.0" width="1280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" />
+
+        <Rectangle fill="#38761d" height="30.0" layoutX="300.0" layoutY="540.0" width="200.0" />
+        <Rectangle fill="#38761d" height="30.0" layoutX="600.0" layoutY="450.0" width="150.0" />
+        <Rectangle fill="#38761d" height="30.0" layoutX="850.0" layoutY="350.0" width="250.0" />
+
+    </children>
+</AnchorPane>
